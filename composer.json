@@ -1,8 +1,8 @@
 {
-    "name": "goodby/ddd",
+    "name": "goodby/ddd-support",
     "description": "",
     "keywords": [],
-    "homepage": "https://github.com/goodby/ddd",
+    "homepage": "https://github.com/goodby/ddd-support",
     "license": "MIT",
     "require": {
         "php": ">=5.4.0",
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Goodby\\Ddd": "src/"
+            "Goodby\\DDDSupport": "src/"
         }
     }
 }
