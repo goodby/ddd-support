@@ -26,7 +26,7 @@ class EntityMutator
         $mutatorMethodName = str_replace('{EventClassName}', $eventClassName, $mutatorMethodFormat);
 
         if (method_exists($entity, $mutatorMethodName) === false) {
-            throw EntityMutationException::mutatorMethodNotExist(get_class($entity), $mutatorMethodName, $eventClassName);
+            throw EntityMutationException::mutatorMethodNotExist(get_class($entity), $mutatorMethodName, $domainEvent);
         }
 
         try {
